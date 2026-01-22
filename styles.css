@@ -1,36 +1,55 @@
 html {
-    background-color: white;
     font-family: Roboto;
+    padding:0;
+    margin:0;
 } 
 
+.main_container {
+    background-color: #1F2937;
+    padding: 0 100px;
+}
 * {
-    outline: 2px solid red; 
+    outline:0px solid red;
 }
 
-.header {
-    display: flex;
-    background-color: #1F2937;
+.headers {
     font-size:18px;
 }
 
+ul {
+    display:flex;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
 .header_links {
-    display: flex;
-    gap: 80px;
-    margin-left: auto;
+    display:flex;
+    justify-content: space-evenly;
+    gap:20px;
+    align-items:center;
+}   
+
+.sub_header {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.sub_writings {
     align-self: center;
 }
-
-.logo {
-    margin-left: 50px;
-}
-
-.link_three {
-    margin-right: 50px;
-}
-
 .subtitle {
-    background-color: #1F2937;
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+.subtitle_sub {
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.button1 {
+    background-color:#3882F6;
 }
