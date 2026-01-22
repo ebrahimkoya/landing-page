@@ -1,0 +1,36 @@
+html {
+    background-color: white;
+    font-family: Roboto;
+} 
+
+* {
+    outline: 2px solid red; 
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    font-size:18px;
+}
+
+.header_links {
+    display: flex;
+    gap: 80px;
+    margin-left: auto;
+    align-self: center;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.link_three {
+    margin-right: 50px;
+}
+
+.subtitle {
+    background-color: #1F2937;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
